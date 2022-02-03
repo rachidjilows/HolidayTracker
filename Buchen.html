@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Holiday Tracker</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <header>
+        <div id="menu-bar" class="fas fa-bars"></div>
+        <a href="#" class="logo">Holiday Tracker</a>
+        <nav class="navbar">
+        <a href="index.html">Startseite</a>  
+        <a href="Buchen.html">Buchen</a>
+        <a href="Angebote.html">Angebote</a>
+        <a href="#review">Bewertung</a>
+        <a href="#kontact">Kontakt</a>
+        </nav>
+    </header>
+    <h1 class="heading">
+        <span>A</span>
+        <span>n</span>
+        <span>g</span>
+        <span>e</span>
+        <span>b</span>
+        <span>o</span>
+        <span>t</span>
+        <span>e</span>
+    </h1>
+<section class="book" id="book">
+
+    <h1 class="heading">
+        <span>b</span>
+        <span>u</span>
+        <span>c</span>
+        <span>h</span>
+        <span>e</span>
+        <span>n</span>
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="book-img.svg" alt="">
+        </div>
+
+        <form action="">
+            <div class="inputBox">
+                <h3>Zielort</h3>
+                <select>
+                <option selected disabled>Wählen Sie Zielort</option>
+                <option value="Marrakesch">Marrakesch</option>
+                <option value="Paris">Paris</option>
+                <option value="Maldiven">Maldiven</option>
+                <option value="London">London</option>
+                <option value="New York">Roma</option>
+                <option value="New York">New York</option>
+            </select>
+            </div>
+            <div class="inputBox">
+                <h3>Ablughafen</h3>
+                <input type="text" >
+            </div>
+            
+            <div class="inputBox">
+                <h3>Anreise Datum</h3>
+                <input type="date">
+            </div>
+            <div class="inputBox">
+                <h3>Abreise Datun</h3>
+                <input type="date">
+            </div>
+            <div class="inputBox">
+                <h3>Reiseteilnehmer</h3>
+                <input type="number" placeholder="Anzahl der Mitreisende">
+            </div>
+            <a href="#packages" class="btn">Buchen</a>
+        </form>
+
+    </div>
+</section>
+<script src="script.js"></script>
+</body>
+</html>
